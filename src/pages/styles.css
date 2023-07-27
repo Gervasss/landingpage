@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .redes {
+  width: 30%;
+  height: 50%;
+  background-color: white;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .redes .buttons  {
+  display: flex;
+  margin-top: 10rem;
+}
+
+.container .redes .buttons button {
+  padding: 5px;
+  margin: 10px;
+  height: 3rem;
+  border-radius: 5px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  border: none;
+  transition: 0.4s;
+}
+
+.container .redes .buttons button:hover {
+  border: 0.5px solid #111;
+  transform: scale(1.02)
+}
+
+.container .redes .buttons  button svg {
+  font-size: 1.5rem;
+}

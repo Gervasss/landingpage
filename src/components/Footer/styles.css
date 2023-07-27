@@ -1,0 +1,13 @@
+.foot{
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: yellow;
+    position: fixed;
+    font-weight: bold;
+    font-size: 1rem;
+    bottom: 0;
+}
